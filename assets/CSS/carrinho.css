@@ -4,7 +4,9 @@
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
-    color: #D0C8C8;
+    margin-right: 100px;
+    font-weight: bold;
+    color: #000;
 }
 
 #quantidade-button {
@@ -25,13 +27,18 @@
 
 /* Resumo de compra */
 .resumo_compra {
+    max-width: 350px;
     border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .resumo_compra hr{
-    width: 280px;
+    width: 260px;
+    font-weight: bold;
+    margin-top: 20px;
     margin-right: 40px;
-    color: #D0C8C8;
+    color: #000;
 }
 
 .resumo_compra button{
@@ -52,14 +59,14 @@
 /* Recomendações */
 .recomendacoes {
     max-width: 100%;
-    margin-top: 50px;
-    padding: 15px;
-    margin: 70px;
 }
 
 .recomendacoes .card_produto {
-    width: 250px;
-    height: 430px;
+    width: 280px;
+    height: 470px;
+    margin-left: 45px;
+    margin-right: 50px;
+    margin-bottom: 20px;
     text-align: center;
     border: 2px solid transparent;
    transition: border-color 0.3s ease, box-shadow 0.3s ease;
@@ -68,4 +75,28 @@
 .recomendacoes .card_produto:hover {
     border-color: #3b82f6; /* Azul Tailwind (equivalente a 'border-blue-500') */
     box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3); /* leve destaque opcional */
+}
+.recomendacoes .preco{
+    margin-bottom: 15px;
+}
+
+.recomendacoes .btn_fav{
+    float: inline-start;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.recomendacoes .btn_cart {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+.btn_ver{
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+    border: solid 3px #d90429;
 }

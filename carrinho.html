@@ -45,11 +45,11 @@
                         <div class="space-y-4 md:flex md:items-center md:justify-between md:gap-6 md:space-y-0">
                           <!-- Imagem do Produto -->
                           <a href="#" class="shrink-0 md:order-1">
-                            <img class="h-20 w-20" src="./assets/imgs/produtos_carrinho/produto_1.jpg" alt="Produto 1" />
+                            <img class="h-20 w-20 ml-3 mr-3" src="./assets/imgs/produtos_carrinho/produto_1.jpg" alt="Produto 1" />
                           </a>
         
                           <div class="flex items-center justify-between md:order-3 md:justify-end">
-                            <div class="flex items-center">
+                            <div class="flex items-center mt-5">
                               <!-- Botão de definir a quantidade -->
                               <button type="button" id="quantidade-button" data-input-counter-decrement="counter-input" class="inline-flex h-5 w-5 shrink-0 items-center justify-center">
         
@@ -57,7 +57,7 @@
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h16"/>
                               </svg>
         
-                                <input type="text" id="counter-input" data-input-counter class="w-10 shrink-0 border-0 bg-transparent text-center text-[15px] font-semibold text-black-500 focus:outline-none focus:ring-0" placeholder="" value="1" required />
+                                <input type="text" id="counter-input" data-input-counter class="w-10 shrink-0 border-0 bg-transparent text-center text-[16px] font-semibold text-black-500 focus:outline-none focus:ring-0" placeholder="" value="1" required />
         
                                 <svg class="h-5 w-4 text-blue-500 hover:text-green-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
                                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16" />
@@ -65,23 +65,24 @@
                               </button>
                             </div>
         
-                            <div class="text-end md:order-4 md:w-32">
-                              <p class="text-[16px] font-bold text-black-900">R$ 1.291,58</p>
+                            <div class="text-end md:order-4 md:w-32 mt-11 mr-10">
+                              <!-- Preço do Produto -->
+                              <p class="text-[20px] font-semibold text-black-900">R$ 1.291,58</p>
                             </div>
                           </div>
         
                            <div class="w-full min-w-0 flex-1 space-y-4 md:order-2 md:max-w-md">
                               <!-- Nome do produto -->
-                              <h2 class="text-[15px] font-medium text-black-900">PC system All in One APPLE iMac (2023) mqrq3ro/a, Apple M3, 24" Retina 4.5K, 8GB, SSD 256GB, 10-core GPU, Keyboard layout INT</h2>
+                              <h2 class="text-[18px] font-bold text-black-900">PC system All in One APPLE iMac (2023) mqrq3ro/a, Apple M3, 24" Retina 4.5K, 8GB, SSD 256GB, 10-core GPU, Keyboard layout INT</h2>
               
-                              <div class="flex items-center gap-4">
+                              <div class="flex items-center gap-4 mt-10">
                                 <!-- Botão de Excluir e Comprar -->
-                                <button type="button" class="inline-flex items-center text-[16px] font-semibold text-[#09A2E9]  hover:text-red-900">
-                                      Excluir
+                                <button type="button" class="inline-flex items-center text-[18px] font-semibold text-[#09A2E9]  hover:text-red-900">
+                                    Excluir
                                     </button>
               
-                                <button type="button" class="inline-flex items-center text-[16px] font-semibold text-[#09A2E9] hover:text-blue-900">
-                                      Comprar agora
+                                <button type="button" class="inline-flex items-center text-[18px] font-semibold text-[#09A2E9] hover:text-blue-900">
+                                    Comprar agora
                                     </button>
                               </div>
                                 </div>
@@ -142,38 +143,7 @@
             <h3 class="text-[32px] font-semibold text-black-800 text-center mb-20">Recomendações para você</h3>
         
             <!-- Cards de produtos -->
-            <div class="mx-auto px-[15px] max-w-screen-xl mt-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 print:grid print:grid-cols-2 print:gap-4 print:place-items-center">
-              
-              <!-- Produto 1 -->
-              <div class="card_produto space-y-6 overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
-                <a href="#" class="overflow-hidden rounded">
-                  <!-- Imagem do Produto -->
-                  <img class="mx-auto h-36 w-36 object-cover" src="./assets/imgs/recomendacoes/produto1.png" alt="Produto 1" />
-                </a>
-
-                <div>
-                  <!-- Nome do Produto -->
-                  <h3 class="text-base font-semibold text-gray-900 mt-2 text-center mt-5">Saco De Bater 1,20 Cm Profissional +2 Luva Bate Saco</h3>
-                  <!-- Descrição do produto -->
-                  <p class="mt-2 text-[15px] text-black-600 dark:text-gray-400 text-center">Ideal para boxe, muay thai e outras artes marciais!</p>
-                </div>
-                <!-- Preço do produto -->
-                <div class="text-center mt-4">
-                  <p class="text-lg font-bold text-black">R$ 136,00</p>
-                </div>
-                
-                <div class="botoes_recomendacoes">
-                  <!-- Botão de Excluir e Comprar -->
-                  <button type="button" class="inline-flex items-center text-[16px] font-semibold text-[#09A2E9]  hover:text-red-900">
-                        Excluir
-                      </button>
-
-                  <button type="button" class="inline-flex items-center text-[16px] font-semibold text-[#09A2E9] hover:text-blue-900">
-                        Comprar agora
-                      </button>
-                </div>
-                  
-                </div>
+            <div class="mx-auto px-[15px] max-w-screen-xl mt-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 print:grid print:grid-cols-2 print:gap-4 print:place-items-center">
 
                 <!-- Produto 1 -->
               <div class="card_produto space-y-6 overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
@@ -184,67 +154,177 @@
 
                 <div>
                   <!-- Nome do Produto -->
-                  <h3 class="text-base font-semibold text-gray-900 mt-2 text-center mt-5">Saco De Bater 1,20 Cm Profissional +2 Luva Bate Saco</h3>
+                  <h3 class="text-[16px] font-bold text-blue-900 mt-5 text-center">Saco De Bater 1,20 Cm Profissional +2 Luva Bate Saco</h3>
                   <!-- Descrição do produto -->
-                  <p class="mt-2 text-[15px] text-black-600 dark:text-gray-400 text-center">Ideal para boxe, muay thai e outras artes marciais!</p>
-                </div>
+                  <p class="mt-2 text-[14px] font-bold text-black-600 text-center mb-1">Ideal para boxe, muay thai e outras artes marciais!</p>
                 <!-- Preço do produto -->
-                <div class="text-center mt-4">
-                  <p class="text-lg font-bold text-black">R$ 136,00</p>
+                  <p class="preco text-lg font-semibold text-black mt-5 mb-10">R$ 136,00</p>
                 </div>
                 
                 <div class="botoes_recomendacoes">
-                  <!-- Botão de Excluir e Comprar -->
-                  <button type="button" class="inline-flex items-center text-[16px] font-semibold text-[#09A2E9]  hover:text-red-900">
-                        Excluir
-                      </button>
-
-                  <button type="button" class="inline-flex items-center text-[16px] font-semibold text-[#09A2E9] hover:text-blue-900">
-                        Comprar agora
-                      </button>
-                </div>
+                  <!-- Botões de recomendações -->
+                  <div class="btn_fav relative inline-block group">
+                     <a href="favoritos.html">
+                      <button
+                      type="button"
+                      class="inline-flex items-center justify-center gap-2 rounded-lg border border-5-red-500 bg-red-600 p-2.5 text-[14px] font-bold text-white-900 hover:bg-red-700 hover:text-primary-700 focus:outline-none focus:ring-4 focus:ring-red-100 mb-20"
+                    >
+                      <svg class="h-6 w-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M12 6C6.5 1 1 8 5.8 13l6.2 7 6.2-7C23 8 17.5 1 12 6Z" />
+                      </svg>
+                    </button>
+                     </a>
                   
+                    <!-- Tooltip -->
+                    <div
+                      class="absolute bottom-full left-1/2 mt-4 mb-2 w-max h-max -translate-x-1/2 rounded-md bg-gray-900 px-2 py-1.5 text-sm text-white opacity-0 transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100">
+                      Add to favourites
+                      <!-- Seta do tooltip -->
+                      <div class="absolute top-full left-1/2 -ml-1 w-2 h-2 rotate-45 bg-gray-900"></div>
+                    </div>
+                  </div>
+
+                  <div class="btn_cart relative inline-block group">
+                    <a href="carrinho.html">
+                    <button
+                     type="button"
+                     class="inline-flex items-center justify-center gap-2 rounded-lg border border-5-blue-500 bg-blue-600 p-2.5 text-[14px] font-bold text-white-900 hover:bg-blue-700 hover:text-primary-700 focus:outline-white focus:ring-4 focus:ring-red-100 mb-20"
+                   >
+                   <svg class="-ms-2 me-2 h-6 w-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="2" width="24" height="24" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4" />
+                  </svg>
+                  <span class="text-white">Add to cart</span>
+                   </button>
+                  </a>
+                      </div>
+                  </div>
                 </div>
 
-                <!-- Produto 1 -->
-              <div class="card_produto space-y-6 overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
-                <a href="#" class="overflow-hidden rounded">
-                  <!-- Imagem do Produto -->
-                  <img class="mx-auto h-36 w-36 object-cover" src="./assets/imgs/recomendacoes/produto1.png" alt="Produto 1" />
-                </a>
-
-                <div>
-                  <!-- Nome do Produto -->
-                  <h3 class="text-base font-semibold text-gray-900 mt-2 text-center mt-5">Saco De Bater 1,20 Cm Profissional +2 Luva Bate Saco</h3>
-                  <!-- Descrição do produto -->
-                  <p class="mt-2 text-[15px] text-black-600 dark:text-gray-400 text-center">Ideal para boxe, muay thai e outras artes marciais!</p>
-                </div>
-                <!-- Preço do produto -->
-                <div class="text-center mt-4">
-                  <p class="text-lg font-bold text-black">R$ 136,00</p>
-                </div>
-                
-                <div class="botoes_recomendacoes">
-                  <!-- Botão de Excluir e Comprar -->
-                  <button type="button" class="inline-flex items-center text-[16px] font-semibold text-[#09A2E9]  hover:text-red-900">
-                        Excluir
-                      </button>
-
-                  <button type="button" class="inline-flex items-center text-[16px] font-semibold text-[#09A2E9] hover:text-blue-900">
-                        Comprar agora
-                      </button>
-                </div>
+                <div class="card_produto space-y-6 overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
+                  <a href="#" class="overflow-hidden rounded">
+                    <!-- Imagem do Produto -->
+                    <img class="mx-auto h-36 w-36 object-cover" src="./assets/imgs/recomendacoes/produto1.png" alt="Produto 1" />
+                  </a>
+  
+                  <div>
+                    <!-- Nome do Produto -->
+                    <h3 class="text-[16px] font-bold text-blue-900 mt-5 text-center">Saco De Bater 1,20 Cm Profissional +2 Luva Bate Saco</h3>
+                    <!-- Descrição do produto -->
+                    <p class="mt-2 text-[14px] font-bold text-black-600 text-center mb-1">Ideal para boxe, muay thai e outras artes marciais!</p>
+                  <!-- Preço do produto -->
+                    <p class="preco text-lg font-semibold text-black mt-5 mb-10">R$ 136,00</p>
+                  </div>
                   
-                </div>
-              </div>
-              
-              </div>
+                  <div class="botoes_recomendacoes">
+                    <!-- Botões de recomendações -->
+                    <div class="btn_fav relative inline-block group">
+                       <a href="favoritos.html">
+                        <button
+                        type="button"
+                        class="inline-flex items-center justify-center gap-2 rounded-lg border border-5-red-500 bg-red-600 p-2.5 text-[14px] font-bold text-white-900 hover:bg-red-700 hover:text-primary-700 focus:outline-none focus:ring-4 focus:ring-red-100 mb-20"
+                      >
+                        <svg class="h-6 w-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 6C6.5 1 1 8 5.8 13l6.2 7 6.2-7C23 8 17.5 1 12 6Z" />
+                        </svg>
+                      </button>
+                       </a>
+                    
+                      <!-- Tooltip -->
+                      <div
+                        class="absolute bottom-full left-1/2 mt-4 mb-2 w-max h-max -translate-x-1/2 rounded-md bg-gray-900 px-2 py-1.5 text-sm text-white opacity-0 transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100">
+                        Add to favourites
+                        <!-- Seta do tooltip -->
+                        <div class="absolute top-full left-1/2 -ml-1 w-2 h-2 rotate-45 bg-gray-900"></div>
+                      </div>
+                    </div>
+  
+                    <div class="btn_cart relative inline-block group">
+                      <a href="carrinho.html">
+                      <button
+                       type="button"
+                       class="inline-flex items-center justify-center gap-2 rounded-lg border border-5-blue-500 bg-blue-600 p-2.5 text-[14px] font-bold text-white-900 hover:bg-blue-700 hover:text-primary-700 focus:outline-white focus:ring-4 focus:ring-red-100 mb-20"
+                     >
+                     <svg class="-ms-2 me-2 h-6 w-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="2" width="24" height="24" viewBox="0 0 24 24">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4" />
+                    </svg>
+                    <span class="text-white">Add to cart</span>
+                     </button>
+                    </a>
+                        </div>
+                    </div>
+                  </div>
 
+                  <div class="card_produto space-y-6 overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
+                    <a href="#" class="overflow-hidden rounded">
+                      <!-- Imagem do Produto -->
+                      <img class="mx-auto h-36 w-36 object-cover" src="./assets/imgs/recomendacoes/produto1.png" alt="Produto 1" />
+                    </a>
+    
+                    <div>
+                      <!-- Nome do Produto -->
+                      <h3 class="text-[16px] font-bold text-blue-900 mt-5 text-center">Saco De Bater 1,20 Cm Profissional +2 Luva Bate Saco</h3>
+                      <!-- Descrição do produto -->
+                      <p class="mt-2 text-[14px] font-bold text-black-600 text-center mb-1">Ideal para boxe, muay thai e outras artes marciais!</p>
+                    <!-- Preço do produto -->
+                      <p class="preco text-lg font-semibold text-black mt-5 mb-10">R$ 136,00</p>
+                    </div>
+                    
+                    <div class="botoes_recomendacoes">
+                      <!-- Botões de recomendações -->
+                      <div class="btn_fav relative inline-block group">
+                         <a href="favoritos.html">
+                          <button
+                          type="button"
+                          class="inline-flex items-center justify-center gap-2 rounded-lg border border-5-red-500 bg-red-600 p-2.5 text-[14px] font-bold text-white-900 hover:bg-red-700 hover:text-primary-700 focus:outline-none focus:ring-4 focus:ring-red-100 mb-20"
+                        >
+                          <svg class="h-6 w-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M12 6C6.5 1 1 8 5.8 13l6.2 7 6.2-7C23 8 17.5 1 12 6Z" />
+                          </svg>
+                        </button>
+                         </a>
+                      
+                        <!-- Tooltip -->
+                        <div
+                          class="absolute bottom-full left-1/2 mt-4 mb-2 w-max h-max -translate-x-1/2 rounded-md bg-gray-900 px-2 py-1.5 text-sm text-white opacity-0 transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100">
+                          Add to favourites
+                          <!-- Seta do tooltip -->
+                          <div class="absolute top-full left-1/2 -ml-1 w-2 h-2 rotate-45 bg-gray-900"></div>
+                        </div>
+                      </div>
+    
+                      <div class="btn_cart relative inline-block group">
+                        <a href="carrinho.html">
+                        <button
+                         type="button"
+                         class="inline-flex items-center justify-center gap-2 rounded-lg border border-5-blue-500 bg-blue-600 p-2.5 text-[14px] font-bold text-white-900 hover:bg-blue-700 hover:text-primary-700 focus:outline-white focus:ring-4 focus:ring-red-100 mb-20"
+                       >
+                       <svg class="-ms-2 me-2 h-6 w-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="2" width="24" height="24" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4" />
+                      </svg>
+                      <span class="text-white">Add to cart</span>
+                       </button>
+                      </a>
+                          </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <!-- Fim de recomendações -->
+
+        <center>
+            <button onclick="window.location.href='./produtos.html'" class="btn_ver bg-blue-600 hover:text-[#edf2f4] text-[20px] text-[#fff] font-bold py-2 px-6 rounded-md transition duration-300 transition-transform duration-300 transform hover:scale-105">
+              <svg class="ml-7 mr-8" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11 8C11 7.44772 11.4477 7 12 7C12.5523 7 13 7.44772 13 8V11H16C16.5523 11 17 11.4477 17 12C17 12.5523 16.5523 13 16 13H13V16C13 16.5523 12.5523 17 12 17C11.4477 17 11 16.5523 11 16V13H8C7.44771 13 7 12.5523 7 12C7 11.4477 7.44772 11 8 11H11V8Z" fill="#ffff"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12ZM3.00683 12C3.00683 16.9668 7.03321 20.9932 12 20.9932C16.9668 20.9932 20.9932 16.9668 20.9932 12C20.9932 7.03321 16.9668 3.00683 12 3.00683C7.03321 3.00683 3.00683 7.03321 3.00683 12Z" fill="#ffff"></path> </g></svg>
+               <span>Ver mais</span>
+            </button>
+        </center>
       </section>
     </main>
 
